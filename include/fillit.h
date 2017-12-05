@@ -14,6 +14,7 @@
 # define FILLIT_H
 # define BUF_SIZE 20
 # define MAX_TRIO 26
+# define IF_RETURN(Bool, Value) if (Bool) return (Value)
 
 typedef enum	e_tr
 {
